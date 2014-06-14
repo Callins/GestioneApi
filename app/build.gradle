@@ -4,7 +4,7 @@ android {
     compileSdkVersion 19
     buildToolsVersion '19.1'
     defaultConfig {
-        packageName "com.gestioneapi.app"
+        applicationId "com.gestioneapi.app"
         minSdkVersion 8
         targetSdkVersion 19
         versionCode 1
