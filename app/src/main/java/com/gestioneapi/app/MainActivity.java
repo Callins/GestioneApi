@@ -33,7 +33,7 @@ public class MainActivity extends ListActivity {
     public void onClick(View view) {
         @SuppressWarnings("unchecked")
         ArrayAdapter<Comment> adapter = (ArrayAdapter<Comment>) getListAdapter();
-        Comment comment = null;
+        Comment comment;
         switch (view.getId()) {
             case R.id.add:
                 String[] comments = new String[] { "Cool", "Very nice", "Hate it" };
